@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
+    "@mantine/core": "^7.15.3",
+    "@mantine/hooks": "^7.15.3",
     "next": "15.1.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"

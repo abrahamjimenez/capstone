@@ -1,6 +1,6 @@
 export async function fetchShopifyData(query: string) {
   try {
-    const response = await fetch(process.env.STOREFRONT_URL as string, {
+    const response = await fetch(process.env.STOREFRONT_API_URL as string, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
